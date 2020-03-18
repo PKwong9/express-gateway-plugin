@@ -20,7 +20,7 @@ module.exports = {
     });
 
   },
-  policies:['example'], // this is for CLI to automatically add to "policies" whitelist in gateway.config
+  policies:[], // this is for CLI to automatically add to "policies" whitelist in gateway.config
   options: {  // This is for CLI to ask about params 'eg plugin configure example'
     baseUrl: {
       title: 'Base Url',
