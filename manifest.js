@@ -22,6 +22,7 @@ module.exports = {
   },
     policies:['example'], // this is for CLI to automatically add to "policies" whitelist in gateway.config
   schema: {  // This is for CLI to ask about params 'eg plugin configure example'
+     $id: "",
     baseUrl: {
       title: 'Base Url',
       description: 'the base url to initialize',
