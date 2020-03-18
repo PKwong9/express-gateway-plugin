@@ -20,9 +20,8 @@ module.exports = {
     });
 
   },
-  policies:['example'], // this is for CLI to automatically add to "policies" whitelist in gateway.config
+    policies:['example'], // this is for CLI to automatically add to "policies" whitelist in gateway.config
   schema: {  // This is for CLI to ask about params 'eg plugin configure example'
-  options: {  // This is for CLI to ask about params 'eg plugin configure example'
     baseUrl: {
       title: 'Base Url',
       description: 'the base url to initialize',
@@ -34,5 +33,5 @@ module.exports = {
       description: 'the max rps value',
       type: 'number'
     }
-  };
+  }
 };
